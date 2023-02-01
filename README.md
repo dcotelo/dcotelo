@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @dcotelo
 - 👀 I’m interested in cloud techologies, IaC, containers orchestration and security
-- 🌱 I’m currently learning Solidity and smart contracts security
 - 📫 How to reach me at diego.cotelo13@gmail.com
 
 <!---
