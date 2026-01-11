@@ -117,19 +117,6 @@ Readable > clever. Maintainable > impressive.
 
 ---
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dcotelo&theme=default)](https://github.com/dcotelo)
-
-[![Diego's GitHub stats](https://github-readme-stats.vercel.app/api?username=dcotelo&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/dcotelo)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dcotelo&layout=compact&theme=default&hide_border=true&langs_count=8)](https://github.com/dcotelo)
-
-</div>
-
----
 
 ## 📫 Get in Touch
 
