@@ -1,88 +1,110 @@
-# 👋 Hey, I'm Diego 🧉⚙️🌩️
-
 <div align="center">
-  
+
+# Diego Cotelo
+
+**Platform Engineer · Cloud Security Practitioner · Kubernetes Toolsmith**
+
+[![Blog](https://img.shields.io/badge/Blog-dcotelo.dev-FF5722?style=for-the-badge&logo=rss&logoColor=white)](https://dcotelo.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dcotelo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
+[![Email](https://img.shields.io/badge/Email-me@dcotelo.dev-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:me@dcotelo.dev)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=dcotelo&color=blueviolet&style=flat-square)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/dcotelo/)
-[![Email](https://img.shields.io/badge/Email-me@dcotelo.dev-red?style=flat-square&logo=gmail)](mailto:me@dcotelo.dev)
 
 </div>
 
-I build **cloud & Kubernetes tooling** that helps engineers understand what's really happening in their systems — before drift, misconfigurations, or "surprises" make it to production.
+---
 
-My comfort zone sits where **AWS, Kubernetes, platform engineering, and cloud security** overlap. I enjoy turning invisible problems (drift, diffs, permissions, workflows) into things you can *see, reason about, and fix*.
+I build tools that help engineering teams **see what's changing** in their infrastructure — before drift, misconfigurations, or silent regressions reach production.
 
-I'm especially interested in systems that are:
-- 🧊 **Boring in production** — reliability over novelty  
-- 🔍 **Easy to inspect** — transparency beats magic  
-- 🔐 **Secure by default** — defense in depth  
-- 🧭 **Clear to own** — when something breaks, you know who to call  
+My work sits at the intersection of **Kubernetes, cloud security, and developer experience**. I turn invisible infrastructure problems into things you can inspect, reason about, and fix with confidence.
+
+I write about these topics on my **[blog](https://dcotelo.dev/blog/)** — covering platform engineering, Helm workflows, cloud security, and the tools I build. You can subscribe via **[RSS](https://dcotelo.dev/rss.xml)**.
 
 ---
 
-## 🧰 Things I'm Building
+## 🚀 Featured Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🧯 Helm Drift Check
-**[dcotelo/helm-drift-check](https://github.com/dcotelo/helm-drift-check)**
+### <a href="https://github.com/dcotelo/ChartImpact">🎯 ChartImpact</a>
+<sup>Go · Next.js · Helm SDK · ⭐ 4</sup>
 
-A GitHub Action to **detect Helm drift** by comparing what's *currently deployed* in Kubernetes with what's about to change in a PR.
+**Understand potentially disruptive Helm chart changes before deployment.**
 
-**Key Features:**
-- ✅ Reads deployed versions from Argo CD
-- ✅ Uses **dyff** for readable YAML diffs
-- ✅ Posts results as PR comments
-- ✅ Designed for multi-service repos
+Surfaces availability, rollout risk, and security changes in Helm chart upgrades with a risk assessment engine.
 
-💡 *Drift happens quietly — this makes it visible before it hurts.*
+- 🔬 Compare any two chart versions (tags, branches, commits)
+- 🟢🟡🔴 Automatic risk classification (availability + security)
+- 📊 Visual diff explorer with filtering and search
+- 🔗 Shareable comparison links for team collaboration
+- 💾 Optional PostgreSQL storage with analytics dashboard
+
+[![CI/CD](https://github.com/dcotelo/ChartImpact/actions/workflows/ci.yml/badge.svg)](https://github.com/dcotelo/ChartImpact/actions/workflows/ci.yml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/dcotelo/ChartImpact/badge)](https://securityscorecards.dev/viewer/?uri=github.com/dcotelo/ChartImpact)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🗺️ Workflow Editor & Visualizer
-**[dcotelo/actions](https://github.com/dcotelo/actions)**
+### <a href="https://github.com/dcotelo/actions">🗺️ Actions Workflow Editor</a>
+<sup>React · Monaco · Dagre · ⭐ 3</sup>
 
-A **web-based editor and visualizer** for GitHub Actions workflows.
+**Interactive editor and visualizer for GitHub Actions workflows.**
 
-**Key Features:**
-- ✅ Real-time YAML validation
-- ✅ Visual job/step diagrams
-- ✅ Explore complex workflows easily
-- ✅ Live demo via GitHub Pages
+Write, validate, and visualize CI/CD workflows with a real-time graph of job dependencies.
 
-💡 *Workflows are code — they deserve good UX.*
+- ✏️ Monaco-powered YAML editor with syntax validation
+- 📈 Interactive directed graph with hover-to-trace dependencies
+- 🔄 Three view modes: Simple, Graph, and Textual
+- ♿ Full keyboard navigation and ARIA support
+- 🌐 **[Live demo →](https://dcotelo.github.io/actions)**
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🧬 Helm Chart Diff Viewer
-**[dcotelo/helm-chart-diff-viewer](https://github.com/dcotelo/helm-chart-diff-viewer)**
+### <a href="https://github.com/dcotelo/github-notifications-streamdeck">🔔 GitHub Notifications for Stream Deck</a>
+<sup>TypeScript · Stream Deck SDK</sup>
 
-A web app to **compare Helm chart versions** from any Git repository.
+**See your unread GitHub notification count on a physical button.**
 
-**Key Features:**
-- ✅ Diff across tags, branches, or commits
-- ✅ Supports custom values files
-- ✅ Clean, human-readable output
-- ✅ Easy to deploy (Docker/Vercel)
-
-💡 *Upgrades are safer when diffs are obvious.*
+- 🔄 Configurable refresh interval (10–3600s)
+- 🔐 Secure token storage
+- 🎯 Click to open GitHub notifications
+- ✨ Visual feedback on notification changes
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🚀 More Coming Soon
-I'm constantly building tools that make platform engineering less painful and more transparent.
+### <a href="https://github.com/dcotelo/cli-mfa-keychain">🔐 CLI MFA Keychain</a>
+<sup>Shell · macOS Keychain · ⭐ 1</sup>
 
-**Areas of Focus:**
-- 🔐 Security & compliance automation
-- 📊 Infrastructure observability
-- 🧭 Developer experience tooling
+**Generate MFA codes from the terminal while keeping seeds in macOS Keychain.**
+
+- 🔑 Secrets stored securely in macOS Keychain
+- ⚡ Instant TOTP generation via `oath-toolkit`
+- 🏷️ Simple alias-based workflow per service
+- 🛡️ No seed files on disk
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/dcotelo/tf-version-reviewer">📋 Terraform Version Reviewer</a>
+<sup>Go</sup>
+
+**Scan directories recursively to audit Terraform versions** across a multi-project codebase.
+
+</td>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/dcotelo/aws-secret-dbdriver">🗝️ AWS Secrets DB Driver</a>
+<sup>PHP · Laravel · ⭐ 1</sup>
+
+**Drop-in Laravel database driver** that fetches credentials from AWS Secrets Manager at runtime with built-in caching.
 
 </td>
 </tr>
@@ -90,66 +112,16 @@ I'm constantly building tools that make platform engineering less painful and mo
 
 ---
 
-## 🧭 What I'm Into
+## 📝 Blog & Writing
 
-<details open>
-<summary><b>☁️ Cloud & Kubernetes</b></summary>
-<br>
+I write about platform engineering, Kubernetes tooling, and cloud security at **[dcotelo.dev](https://dcotelo.dev/blog/)**. Topics include Helm workflows, infrastructure risk, CI/CD patterns, and the thinking behind the tools I build.
 
-- **Amazon EKS** (including EKS Auto Mode)  
-- Multi-region & geo-distributed systems 🌍  
-- Capacity planning, failure domains, traffic boundaries  
-- **GitOps** with ArgoCD, Helm, and Kustomize  
+<div align="center">
 
-</details>
+[![Read the Blog](https://img.shields.io/badge/Read_the_Blog-dcotelo.dev-FF5722?style=for-the-badge&logo=hashnode&logoColor=white)](https://dcotelo.dev/blog/)
+[![RSS Feed](https://img.shields.io/badge/RSS_Feed-Subscribe-FFA500?style=for-the-badge&logo=rss&logoColor=white)](https://dcotelo.dev/rss.xml)
 
-<details open>
-<summary><b>🔐 Cloud Security</b> (practical, not theoretical)</summary>
-<br>
-
-- IAM least privilege & blast-radius reduction  
-- Secure CI/CD (OIDC, no long-lived credentials 🔑)  
-- Terraform state & secrets hygiene  
-- Finding misconfigurations before attackers do  
-- Cloud & infra **CTFs** to stay sharp ⚔️  
-
-</details>
-
-<details open>
-<summary><b>🧱 Platform Engineering</b></summary>
-<br>
-
-- Opinionated Terraform modules that age well  
-- CI/CD patterns teams actually trust  
-- Tooling that reduces cognitive load  
-- Clear ownership models → fewer 3 a.m. incidents 😴  
-
-</details>
-
-<details open>
-<summary><b>📊 Reliability & Observability</b></summary>
-<br>
-
-- Metrics, logs, traces, and SLOs  
-- Debugging latency across app → kube → network → AWS  
-- Runbooks written for tired humans, not ideal conditions  
-
-</details>
-
----
-
-## 🧑‍💻 Languages I Use
-
-I don't collect languages — I use them intentionally.
-
-```text
-🐹 Go           ████████████████░░░░  80%  (tooling, automation, infrastructure services)
-⚡ TypeScript   ██████████████░░░░░░  70%  (web tools, CI/CD UX, workflow tooling)
-🐍 Python       ████████░░░░░░░░░░░░  40%  (scripting, analysis, security experiments)
-🧩 Bash         ██████████░░░░░░░░░░  50%  (glue, debugging, survival)
-```
-
-**Philosophy:** Readable > clever. Maintainable > impressive.
+</div>
 
 ---
 
@@ -157,40 +129,101 @@ I don't collect languages — I use them intentionally.
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
 
 </div>
 
-**AWS:** EKS, IAM, VPC, DynamoDB, ALB/NLB, Route53, KMS, S3  
-**Kubernetes:** EKS Auto Mode, Karpenter  
-**GitOps / CI:** ArgoCD, Helm, Kustomize, GitHub Actions  
-**IaC:** Terraform, Terraform Cloud  
-**Observability:** Datadog  
+<details>
+<summary><b>Expand full stack details</b></summary>
+<br>
+
+| Area | Technologies |
+|------|-------------|
+| **Languages** | Go, TypeScript, Python, Bash, PHP |
+| **Cloud** | AWS (EKS, IAM, VPC, DynamoDB, ALB/NLB, Route53, KMS, S3, CDK, Secrets Manager) |
+| **Kubernetes** | EKS, EKS Auto Mode, Karpenter, Helm, Kustomize |
+| **GitOps / CI** | ArgoCD, GitHub Actions, OIDC-based auth |
+| **IaC** | Terraform, Terraform Cloud, AWS CDK |
+| **Frontend** | Next.js, React, Monaco Editor |
+| **Observability** | Datadog, Grafana, SLOs |
+| **Containers** | Docker, Docker Compose |
+| **Storage** | PostgreSQL, DynamoDB, S3 |
+| **Security** | IAM least privilege, CodeQL, OpenSSF Scorecard, OIDC |
+
+</details>
 
 ---
 
-## 🧠 How I Think About Systems
+## 🧭 What I Focus On
 
-> 🔐 Security is an **architecture problem**, not a checklist  
-> 🧘‍♂️ The best platforms fade into the background  
-> 🧭 Clear ownership beats perfect tooling  
-> 🛑 If you can't explain it at 3 a.m., it's too complex  
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ Cloud & Kubernetes
+- **Amazon EKS** including Auto Mode & Karpenter
+- Multi-region & geo-distributed systems 🌍
+- Capacity planning, failure domains, traffic boundaries
+- **GitOps** with ArgoCD, Helm, and Kustomize
+
+### 🔐 Cloud Security
+- IAM least privilege & blast-radius reduction
+- Secure CI/CD — OIDC, no long-lived credentials 🔑
+- Terraform state & secrets hygiene
+- Hunting misconfigurations before attackers do
+- Cloud & infra **CTFs** to stay sharp ⚔️
+
+</td>
+<td width="50%" valign="top">
+
+### 🧱 Platform Engineering
+- Opinionated Terraform modules that age well
+- CI/CD patterns teams actually trust
+- Tooling that reduces cognitive load
+- Clear ownership models → fewer 3 a.m. incidents 😴
+
+### 📊 Reliability & Observability
+- Metrics, logs, traces, and SLOs
+- Debugging latency across app → kube → network → AWS
+- Runbooks written for tired humans, not ideal conditions
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧠 Principles
+
+> **Security is an architecture problem**, not a checklist.
+>
+> **The best platforms fade into the background.** If your platform requires a tutorial every sprint, it's not a platform — it's a tax.
+>
+> **Clear ownership beats perfect tooling.** When something breaks at 3 a.m., the answer to "who owns this?" should be obvious.
+>
+> **Decision support, not enforcement.** Surface what's changing and why it matters. Enable informed team decisions — don't impose judgment.
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dcotelo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dcotelo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
@@ -201,20 +234,11 @@ I don't collect languages — I use them intentionally.
 
 ---
 
-## 📫 Get in Touch
-
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-me@dcotelo.dev-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:me@dcotelo.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dcotelo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
-[![GitHub](https://img.shields.io/badge/GitHub-dcotelo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dcotelo)
+**Building tools that make infrastructure visible, upgrades safe, and on-call less painful.**
 
-**Open to interesting conversations about cloud infrastructure, platform engineering, and making systems better.**
+[![Blog](https://img.shields.io/badge/dcotelo.dev-Read_the_Blog-FF5722?style=flat-square&logo=rss&logoColor=white)](https://dcotelo.dev/blog/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
 
-</div>
-
----
-
-<div align="center">
-  <sub>Built with ❤️ and ☕ by Diego Cotelo</sub>
 </div>
