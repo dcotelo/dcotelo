@@ -1,8 +1,8 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=Diego%20Cotelo&fontSize=48&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Uruguay%20%C2%B7%20dcotelo.dev&descSize=16&descAlignY=55" width="100%" alt="" />
+
 <div align="center">
 
-# Diego Cotelo
-
-**Platform engineer building developer & security tooling**
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&center=true&vCenter=true&width=520&color=7AA2F7&lines=Platform+engineer;Building+developer+%26+security+tooling;Kubernetes+%C2%B7+Cloud+Security+%C2%B7+DevEx)](https://dcotelo.dev)
 
 [![Blog](https://img.shields.io/badge/Blog-dcotelo.dev-FF5722?style=flat-square&logo=rss&logoColor=white)](https://dcotelo.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dcotelo-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
@@ -113,16 +113,11 @@ I write about platform engineering, Kubernetes, and cloud security at **[dcotelo
 
 <div align="center">
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+[![Stack](https://skillicons.dev/icons?i=go,ts,bash,aws,kubernetes,terraform,githubactions,docker,react,nextjs,postgres,grafana&perline=12)](https://github.com/dcotelo)
+
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 
 </div>
 
@@ -166,3 +161,5 @@ I write about platform engineering, Kubernetes, and cloud security at **[dcotelo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:414868,100:1a1b27&height=120&section=footer" width="100%" alt="" />
