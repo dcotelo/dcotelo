@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=Diego%20Cotelo&fontSize=48&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Uruguay%20%C2%B7%20dcotelo.dev&descSize=16&descAlignY=55" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=Diego%20Cotelo&fontSize=48&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=dcotelo.dev&descSize=16&descAlignY=55" width="100%" alt="" />
 
 <div align="center">
 
