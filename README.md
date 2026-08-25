@@ -4,9 +4,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&center=true&vCenter=true&width=520&color=7AA2F7&lines=Platform+%26+Security+Engineer;Building+developer+%26+security+tooling;Kubernetes+%C2%B7+Cloud+Security+%C2%B7+DevEx)](https://dcotelo.dev)
 
-[![Blog](https://img.shields.io/badge/Blog-dcotelo.dev-FF5722?style=flat-square&logo=rss&logoColor=white)](https://dcotelo.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dcotelo-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
-[![Email](https://img.shields.io/badge/Email-me@dcotelo.dev-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:me@dcotelo.dev)
+[![dcotelo.dev](https://img.shields.io/badge/dcotelo.dev-1a1b27?style=for-the-badge&logo=rss&logoColor=7aa2f7)](https://dcotelo.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=7aa2f7)](https://www.linkedin.com/in/dcotelo/)
+[![me@dcotelo.dev](https://img.shields.io/badge/me%40dcotelo.dev-1a1b27?style=for-the-badge&logo=maildotru&logoColor=7aa2f7)](mailto:me@dcotelo.dev)
 
 </div>
 
@@ -83,8 +83,8 @@ I write about platform engineering, Kubernetes, and cloud security at **[dcotelo
 
 **Building tools that make infrastructure visible, upgrades safe, and on-call less painful.**
 
-[![Blog](https://img.shields.io/badge/dcotelo.dev-Read_the_Blog-FF5722?style=flat-square&logo=rss&logoColor=white)](https://dcotelo.dev/blog/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
+[![Blog](https://img.shields.io/badge/Read_the_blog-1a1b27?style=for-the-badge&logo=rss&logoColor=7aa2f7)](https://dcotelo.dev/blog/)
+[![LinkedIn](https://img.shields.io/badge/Connect-1a1b27?style=for-the-badge&logo=linkedin&logoColor=7aa2f7)](https://www.linkedin.com/in/dcotelo/)
 
 </div>
 
