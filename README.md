@@ -18,94 +18,20 @@ I write about platform engineering, Kubernetes, and cloud security at **[dcotelo
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### <a href="https://github.com/dcotelo/ctf-in-a-box">🛡️ CTF-in-a-box</a>
-<sup>TypeScript · Docker · ⭐ 2</sup>
+<a href="https://github.com/dcotelo/ctf-in-a-box"><img src="assets/cards/ctf-in-a-box.svg" width="49%" alt="ctf-in-a-box — self-hosted OWASP CTF kit" /></a>
+<a href="https://github.com/dcotelo/cprof"><img src="assets/cards/cprof.svg" width="49%" alt="cprof — per-repository Claude account switching" /></a>
 
-**Self-hosted OWASP CTF kit — one box, one free GitHub org, no cloud.**
+<a href="https://github.com/dcotelo/ChartImpact"><img src="assets/cards/chartimpact.svg" width="49%" alt="ChartImpact — Helm chart diff with risk assessment" /></a>
+<a href="https://github.com/dcotelo/gitprofile"><img src="assets/cards/gitprofile.svg" width="49%" alt="gitprofile — multiple git identities, one command" /></a>
 
-- Secure Development module: 6 targets, 321 patch-the-flaw challenges scored by GitHub Actions
-- Quiz and classic jeopardy CTF modules, graded instantly in-app
-- Team registration, live leaderboard, organizer admin panel
+<a href="https://github.com/dcotelo/actions"><img src="assets/cards/actions.svg" width="49%" alt="Actions Workflow Editor — visualize GitHub Actions workflows" /></a>
+<a href="https://github.com/dcotelo/cli-mfa-keychain"><img src="assets/cards/cli-mfa-keychain.svg" width="49%" alt="cli-mfa-keychain — TOTP from the terminal, seeds in macOS Keychain" /></a>
 
-[![CI](https://github.com/dcotelo/ctf-in-a-box/actions/workflows/ci.yml/badge.svg)](https://github.com/dcotelo/ctf-in-a-box/actions/workflows/ci.yml)
-[📖 Docs](https://dcotelo.github.io/ctf-in-a-box/)
+</div>
 
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/dcotelo/cprof">⚑ cprof</a>
-<sup>Shell · macOS · ⭐ 4</sup>
-
-**Per-repository Claude account switching — the directory decides which subscription runs.**
-
-- Isolated config directory per profile, so accounts never touch
-- Default profile, directory rules, and per-repo pins
-- 300-assertion test suite, installable via Homebrew
-
-[![CI](https://github.com/dcotelo/cprof/actions/workflows/ci.yml/badge.svg)](https://github.com/dcotelo/cprof/actions/workflows/ci.yml)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/dcotelo/ChartImpact">🎯 ChartImpact</a>
-<sup>Go · Next.js · ⭐ 4</sup>
-
-**Understand disruptive Helm chart changes before deployment.**
-
-- Compare any two chart versions with automatic risk classification
-- Visual diff explorer with shareable comparison links
-
-[![CI/CD](https://github.com/dcotelo/ChartImpact/actions/workflows/ci.yml/badge.svg)](https://github.com/dcotelo/ChartImpact/actions/workflows/ci.yml)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/dcotelo/ChartImpact/badge)](https://securityscorecards.dev/viewer/?uri=github.com/dcotelo/ChartImpact)
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/dcotelo/gitprofile">👥 gitprofile</a>
-<sup>Go</sup>
-
-**Juggle multiple git identities without editing `.gitconfig` by hand.**
-
-- Name, email, and signing key per profile — switch globally or per repo
-- Single static binary, installable via Homebrew
-
-[![CI](https://github.com/dcotelo/gitprofile/actions/workflows/go.yml/badge.svg)](https://github.com/dcotelo/gitprofile/actions/workflows/go.yml)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/dcotelo/actions">🗺️ Actions Workflow Editor</a>
-<sup>React · Monaco · ⭐ 3</sup>
-
-**Write, validate, and visualize GitHub Actions workflows.**
-
-- Monaco YAML editor with real-time job dependency graph
-- **[Live demo →](https://dcotelo.github.io/actions)**
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/dcotelo/cli-mfa-keychain">🔐 CLI MFA Keychain</a>
-<sup>Shell · macOS · ⭐ 1</sup>
-
-**TOTP codes from the terminal, seeds locked in macOS Keychain.**
-
-- Alias-based workflow per service
-- No seed files on disk
-
-</td>
-</tr>
-</table>
-
-**More tools:** [github-notifications-streamdeck](https://github.com/dcotelo/github-notifications-streamdeck) · [tf-version-reviewer](https://github.com/dcotelo/tf-version-reviewer) · [aws-secret-dbdriver](https://github.com/dcotelo/aws-secret-dbdriver)
+<sup>🛡️ [CTF-in-a-box docs](https://dcotelo.github.io/ctf-in-a-box/) · 🗺️ [Actions live demo](https://dcotelo.github.io/actions) · **More tools:** [github-notifications-streamdeck](https://github.com/dcotelo/github-notifications-streamdeck) · [tf-version-reviewer](https://github.com/dcotelo/tf-version-reviewer) · [aws-secret-dbdriver](https://github.com/dcotelo/aws-secret-dbdriver)</sup>
 
 ---
 
