@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&center=true&vCenter=true&width=520&color=7AA2F7&lines=Platform+engineer;Building+developer+%26+security+tooling;Kubernetes+%C2%B7+Cloud+Security+%C2%B7+DevEx)](https://dcotelo.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&center=true&vCenter=true&width=520&color=7AA2F7&lines=Platform+%26+Security+Engineer;Building+developer+%26+security+tooling;Kubernetes+%C2%B7+Cloud+Security+%C2%B7+DevEx)](https://dcotelo.dev)
 
 [![Blog](https://img.shields.io/badge/Blog-dcotelo.dev-FF5722?style=flat-square&logo=rss&logoColor=white)](https://dcotelo.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dcotelo-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dcotelo/)
@@ -151,9 +151,9 @@ I write about platform engineering, Kubernetes, and cloud security at **[dcotelo
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dcotelo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dcotelo&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dcotelo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dcotelo&theme=tokyonight" height="180" alt="GitHub Stats" /> <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dcotelo&theme=tokyonight" height="180" alt="Top Languages" />
 
 **Building tools that make infrastructure visible, upgrades safe, and on-call less painful.**
 
