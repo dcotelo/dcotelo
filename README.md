@@ -20,7 +20,7 @@ I write about platform engineering, Kubernetes, and cloud security at **[dcotelo
 
 <div align="center">
 
-<a href="https://github.com/dcotelo/ctf-in-a-box"><img src="assets/cards/ctf-in-a-box.svg" width="49%" alt="ctf-in-a-box — self-hosted OWASP CTF kit" /></a>
+<a href="https://github.com/dcotelo/owasp-ctf"><img src="assets/cards/owasp-ctf.svg" width="49%" alt="owasp-ctf — self-hosted OWASP CTF kit" /></a>
 <a href="https://github.com/dcotelo/cprof"><img src="assets/cards/cprof.svg" width="49%" alt="cprof — per-repository Claude account switching" /></a>
 
 <a href="https://github.com/dcotelo/ChartImpact"><img src="assets/cards/chartimpact.svg" width="49%" alt="ChartImpact — Helm chart diff with risk assessment" /></a>
@@ -31,7 +31,7 @@ I write about platform engineering, Kubernetes, and cloud security at **[dcotelo
 
 </div>
 
-<sup>🛡️ [CTF-in-a-box docs](https://dcotelo.github.io/ctf-in-a-box/) · 🗺️ [Actions live demo](https://dcotelo.github.io/actions) · **More tools:** [github-notifications-streamdeck](https://github.com/dcotelo/github-notifications-streamdeck) · [tf-version-reviewer](https://github.com/dcotelo/tf-version-reviewer) · [aws-secret-dbdriver](https://github.com/dcotelo/aws-secret-dbdriver)</sup>
+<sup>🛡️ [owasp-ctf docs](https://dcotelo.github.io/owasp-ctf/) · 🗺️ [Actions live demo](https://dcotelo.github.io/actions) · **More tools:** [github-notifications-streamdeck](https://github.com/dcotelo/github-notifications-streamdeck) · [tf-version-reviewer](https://github.com/dcotelo/tf-version-reviewer) · [aws-secret-dbdriver](https://github.com/dcotelo/aws-secret-dbdriver)</sup>
 
 ---
 
